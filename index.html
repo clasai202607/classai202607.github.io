@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 AI 智慧物流實戰養成班</title>
+  <meta name="description" content="2026 AI 智慧物流實戰養成班招生網站，聚焦智慧倉儲、智慧配送、路徑最佳化、排程決策、需求預測與企業專題實作。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="主選單">
+      <a class="brand brand-logo" href="#top" aria-label="回到首頁">
+        <span class="brand-logos" aria-hidden="true">
+          <img class="brand-logo-yuntech" src="yuntech-logo-transparent.png" alt="">
+          <img class="brand-logo-commerce" src="commerce-logo-transparent.png" alt="">
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="開啟選單" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about">課程定位</a>
+        <a href="#audience">報名對象</a>
+        <a href="#path">培訓流程</a>
+        <a href="#classes">班級時程</a>
+        <a href="#curriculum">課程內容</a>
+        <a href="#reward">獎勵評量</a>
+        <a href="#application">報名規定</a>
+        <a href="#completion">結訓規範</a>
+        <a href="#apply">報名與表單下載</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="hero-photo-wrap">
+            <img class="hero-photo" src="campus-hero.jpg" alt="國立雲林科技大學校園景觀">
+          </div>
+          <p class="hero-kicker">國立雲林科技大學｜青年 AI 實戰養成班</p>
+          <p class="section-label hero-topic-label">智慧倉儲物流主題</p>
+          <h1 id="hero-title">把物流現場需求，轉成 AI 可以解決的實作題。</h1>
+          <p class="hero-lead">本課程以智慧物流與宅配營運場域為核心，結合真實產業需求與 AI 應用實作，帶領學員從基礎觀念逐步進入企業解題流程。課程內容涵蓋 AI 基礎、物流資料分析、倉儲數位建模、揀貨與配送路徑最佳化、智慧排程、需求預測、庫存配置與數位孿生模擬等主題，協助學員理解物流現場中「人、車、貨、路徑、時間」之間的關聯，並學會將營運痛點轉化為可分析、可建模、可驗證的 AI 解決方案。透過第一階段課程訓練與第二階段企業專題實作，學員將累積資料處理、模型應用、流程改善、KPI 分析與成果發表能力，培養能銜接產業需求的智慧物流 AI 應用人才。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#apply">查看報名資訊</a>
+            <a class="btn btn-ghost" href="#curriculum">檢視雙階段課程</a>
+          </div>
+        </div>
+
+        <aside class="hero-summary reveal" aria-label="課程摘要">
+          <div class="summary-top">
+            <span>Program</span>
+            <strong>240HR</strong>
+          </div>
+          <ul class="summary-list">
+            <li><span>第一階段</span><b>次產業 AI 應用課程 120 小時</b></li>
+            <li><span>第二階段</span><b>企業專題實作 120 小時</b></li>
+            <li><span>培訓主軸</span><b>智慧倉儲、智慧配送與配送效率模擬</b></li>
+            <li><span>合作場域</span><b>台灣宅配通智慧物流場域</b></li>
+            <li><span>上課地點</span><b>國立雲林科技大學</b><small class="location-address">雲林縣斗六市龍潭里大學路三段123號</small></li>
+          </ul>
+          <div class="countdown-card">
+            <p>第一班預計開課倒數</p>
+            <div class="countdown" data-target="2026-07-01T09:00:00+08:00">
+              <div><strong id="days">--</strong><span>天</span></div>
+              <div><strong id="hours">--</strong><span>時</span></div>
+              <div><strong id="minutes">--</strong><span>分</span></div>
+              <div><strong id="seconds">--</strong><span>秒</span></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="container hero-ribbon reveal">
+        <span>智慧倉儲及智慧配送</span>
+        <span>配送效率模擬與預測</span>
+        <span>企業 POC 專題實作</span>
+        <span>結訓銜接就業媒合</span>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split-heading reveal">
+        <p class="section-label">Course Positioning</p>
+        <h2>課程不是只學工具，而是學習把物流問題拆成資料、模型與決策。</h2>
+        <p>物流業面對訂單波動、派車配置、倉儲空間、配送時效與客服需求等多重挑戰，課程以「需求導向」呈現，讓學員從需求、課程、專題到成果逐步掌握學習重點。</p>
+      </div>
+
+      <div class="container pain-layout">
+        <article class="pain-card reveal">
+          <span>現場需求 01</span>
+          <h3>人力搬運與能源效率低落</h3>
+          <p>傳統倉儲仰賴人員與堆高機，若尋貨與揀貨路徑未經最佳化，容易增加往返時間、能源消耗與作業成本。</p>
+        </article>
+        <article class="pain-card reveal">
+          <span>現場需求 02</span>
+          <h3>大規模場域路徑排程困難</h3>
+          <p>面對大量庫存與複雜貨架配置，單靠經驗不易即時計算最佳路徑，也難以因應尖峰訂單與臨時變化。</p>
+        </article>
+        <article class="pain-card reveal">
+          <span>現場需求 03</span>
+          <h3>倉儲作業資訊即時掌握不足</h3>
+          <p>貨物位置、揀貨進度、設備狀態與人員負荷若無法整合，管理者難以快速辨識瓶頸並調整資源。</p>
+        </article>
+        <article class="solution-card reveal">
+          <span>培育方向</span>
+          <h3>資料驅動的智慧物流能力</h3>
+          <p>課程以 AI 演算法、資料分析、路徑最佳化、排程決策與數位孿生模擬為核心，訓練學員將企業問題轉化為可驗證的解決方案。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section audience-section" id="audience">
+      <div class="container audience-column reveal">
+        <p class="section-label">Who Can Apply</p>
+        <h2>報名對象</h2>
+        <p class="audience-lead">本計畫補助對象為滿 18 至 35 歲（含）之青年，並具備我國教育部認定之大專校院副學士（含二專、五專）以上學歷，適合欲進入服務業、智慧物流、資料分析與 AI 應用領域者。報名前請確認自身資格、文件備齊程度，以及是否能完整參與培訓與企業專題實作。</p>
+        <div class="audience-list" aria-label="報名對象清單">
+          <article class="audience-item">
+            <span>01</span>
+            <div>
+              <h3>18 至 35 歲待業青年</h3>
+              <p>適合希望投入服務業、物流倉儲、資料分析與 AI 應用工作的青年，須符合年齡與學歷條件。</p>
+            </div>
+          </article>
+          <article class="audience-item">
+            <span>02</span>
+            <div>
+              <h3>應屆畢業生</h3>
+              <p>適合即將銜接就業、希望累積企業實作與專題成果的畢業生；應屆畢業生可先提供在學證明，並於培訓完成後 6 個月內補交畢業證書影本。</p>
+            </div>
+          </article>
+          <article class="audience-item">
+            <span>03</span>
+            <div>
+              <h3>可配合完整培訓與企業專題者</h3>
+              <p>需能參與 240 小時培訓，包含第一階段次產業 AI 應用課程與第二階段企業專題實作。</p>
+            </div>
+          </article>
+        </div>
+              </div>
+    </section>
+
+    <section class="section warm-section" id="path">
+      <div class="container path-grid path-single">
+        <div class="path-copy reveal">
+          <p class="section-label">Training Path</p>
+          <h2>從報名、基礎培訓到企業解題，流程改成一條清楚的學習路線。</h2>
+          <p>培訓流程以四段式呈現，協助學員掌握從甄選、第一階段、第二階段到成果媒合的完整路徑。</p>
+        </div>
+      </div>
+
+      <div class="container timeline reveal" aria-label="培訓流程">
+        <article>
+          <span>01</span>
+          <h3>報名與甄選</h3>
+          <p>資格審查、參訓說明、錄取通知。</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>第一階段 120h</h3>
+          <p>完成 AI 基礎、資料分析、智慧倉儲、路徑規劃、排程與數位孿生課程。</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>第二階段 120h</h3>
+          <p>由企業出題，分組完成 POC 專題、模型驗證、KPI 分析與成果報告。</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>成果展示與媒合</h3>
+          <p>進行專題發表、企業回饋與就業媒合，銜接服務業 AI 應用職能。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="classes">
+      <div class="container split-heading reveal">
+        <p class="section-label">Class Schedule</p>
+        <h2>班級時程與師資</h2>
+        <p>兩班皆分為第一階段次產業 AI 應用課程與第二階段企業專題實作，時程、師資與上課地點資訊如下。</p>
+      </div>
+
+      <div class="container class-grid">
+        <article class="class-card reveal">
+          <div class="class-head">
+            <span>第一班（1）</span>
+            <strong>7/1 至 8/25</strong>
+          </div>
+          <div class="class-phase">
+            <b>第一階段｜7/1 至 7/28｜120HR</b>
+            <p>授課師資：林家人、賴俊吉</p>
+          </div>
+          <div class="class-phase accent">
+            <b>第二階段｜7/29 至 8/25｜120HR</b>
+            <p>企業業師：林逢傑、徐慶懿、陳晏誠、譚芃楠</p>
+          </div>
+        </article>
+
+        <article class="class-card reveal">
+          <div class="class-head">
+            <span>第二班（2）</span>
+            <strong>7/29 至 9/23</strong>
+          </div>
+          <div class="class-phase">
+            <b>第一階段｜7/29 至 8/25｜120HR</b>
+            <p>授課師資：林家人、賴俊吉</p>
+          </div>
+          <div class="class-phase accent">
+            <b>第二階段｜8/26 至 9/23｜120HR</b>
+            <p>企業業師：林逢傑、徐慶懿、陳晏誠、譚芃楠</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="container location-panel reveal" aria-label="上課地點">
+        <div>
+          <span class="section-label">Location</span>
+          <h3>上課地點</h3>
+        </div>
+        <p>國立雲林科技大學 <small class="location-address">雲林縣斗六市龍潭里大學路三段123號</small></p>
+      </div>
+
+      
+    </section>
+
+    <section class="section warm-section" id="curriculum">
+      <div class="container split-heading reveal">
+        <p class="section-label">Curriculum</p>
+        <h2>雙階段課程規劃</h2>
+        <p>課程分為第一階段次產業 AI 應用課程與第二階段企業專題實作，合計 240 小時。</p>
+      </div>
+
+      <div class="container stage-layout">
+        <article class="stage-panel reveal">
+          <div class="stage-intro">
+            <span>Stage 01</span>
+            <h3>智慧倉儲物流｜次產業 AI 應用課程規劃表</h3>
+            <p>第一階段以 AI 與智慧物流基礎能力建構為主，總計 120 小時。</p>
+          </div>
+          <div class="table-wrap">
+            <table class="course-table">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>課程名稱</th>
+                  <th>核心內容</th>
+                  <th>培養能力</th>
+                  <th>時數</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="No">1-1</td>
+                  <td data-label="課程名稱">AI 技術導論與物流應用<br><small>含共通性課程</small></td>
+                  <td data-label="核心內容">AI 趨勢、機器學習、深度學習、強化學習、AI 基礎素養及資安等</td>
+                  <td data-label="培養能力">AI 基礎觀念</td>
+                  <td data-label="時數">30h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">1-2</td>
+                  <td data-label="課程名稱">智慧倉儲建模</td>
+                  <td data-label="核心內容">SKU 建模、儲位規劃、訂單流程模擬、數位地圖</td>
+                  <td data-label="培養能力">倉儲建模能力</td>
+                  <td data-label="時數">15h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">1-3</td>
+                  <td data-label="課程名稱">揀貨最佳化與路徑規劃</td>
+                  <td data-label="核心內容">單筆/批次揀貨、KMeans、Nearest Neighbor、TSP</td>
+                  <td data-label="培養能力">路徑最佳化</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">1-4</td>
+                  <td data-label="課程名稱">智慧排程與物流決策</td>
+                  <td data-label="核心內容">車隊排程、多目標最佳化、強化學習派車</td>
+                  <td data-label="培養能力">智慧調度能力</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">1-5</td>
+                  <td data-label="課程名稱">預測分析與庫存配置</td>
+                  <td data-label="核心內容">熱門 SKU 預測、安全庫存、ABC 分析、動態補貨</td>
+                  <td data-label="培養能力">需求預測能力</td>
+                  <td data-label="時數">15h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">1-6</td>
+                  <td data-label="課程名稱">數位孿生與智慧物流</td>
+                  <td data-label="核心內容">Digital Twin、AMR/AGV、Sim-to-Real</td>
+                  <td data-label="培養能力">系統整合能力</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="4">合計</td>
+                  <td>120h</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </article>
+
+        <article class="stage-panel project-stage reveal">
+          <div class="stage-intro">
+            <span>Stage 02</span>
+            <h3>智慧倉儲物流｜企業專題實作規劃表</h3>
+            <p>第二階段包含六項企業專題，每項 20 小時，總計 120 小時。</p>
+          </div>
+          <div class="table-wrap">
+            <table class="course-table">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>課程名稱</th>
+                  <th>核心內容</th>
+                  <th>培養能力</th>
+                  <th>時數</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="No">2-1</td>
+                  <td data-label="課程名稱">倉儲揀貨效率提升專案</td>
+                  <td data-label="核心內容">揀貨流程分析、動線優化、批次策略設計</td>
+                  <td data-label="培養能力">流程改善能力</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">2-2</td>
+                  <td data-label="課程名稱">訂單波峰時段智慧排程專案</td>
+                  <td data-label="核心內容">高峰訂單預測、人力與車隊排程</td>
+                  <td data-label="培養能力">排程決策能力</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">2-3</td>
+                  <td data-label="課程名稱">商品熱區預測與儲位優化專案</td>
+                  <td data-label="核心內容">熱銷商品分析、ABC 分類、儲位重配</td>
+                  <td data-label="培養能力">庫存分析能力</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">2-4</td>
+                  <td data-label="課程名稱">配送路線最佳化專案</td>
+                  <td data-label="核心內容">配送路徑規劃、TSP、即時調度</td>
+                  <td data-label="培養能力">路線優化能力</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">2-5</td>
+                  <td data-label="課程名稱">智慧物流模擬平台建置專案</td>
+                  <td data-label="核心內容">Digital Twin、流程模擬、情境測試</td>
+                  <td data-label="培養能力">系統建置能力</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+                <tr>
+                  <td data-label="No">2-6</td>
+                  <td data-label="課程名稱">AI 客訴與客服預測分析專案</td>
+                  <td data-label="核心內容">客訴文字分析、需求預測、客服改善</td>
+                  <td data-label="培養能力">AI 分析能力</td>
+                  <td data-label="時數">20h</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="4">合計</td>
+                  <td>120h</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container split-heading reveal">
+        <p class="section-label">Project Output</p>
+        <h2>企業專題不只列名稱，也呈現最後需要交付的成果。</h2>
+        <p>第二階段學員需完成問題定義、資料蒐集、AI 模型建置、路徑與排程設計、KPI 分析、系統整合與成果展示。</p>
+      </div>
+
+      <div class="container project-grid">
+        <article class="project-card reveal">
+          <b>2-1</b>
+          <h3>倉儲揀貨效率提升</h3>
+          <p>以流程分析與動線優化改善倉內揀貨效率。</p>
+        </article>
+        <article class="project-card reveal">
+          <b>2-2</b>
+          <h3>波峰時段智慧排程</h3>
+          <p>依高峰訂單預測安排人力與車隊資源。</p>
+        </article>
+        <article class="project-card reveal">
+          <b>2-3</b>
+          <h3>商品熱區與儲位優化</h3>
+          <p>透過熱銷商品分析、ABC 分類與儲位重配提升出貨效率。</p>
+        </article>
+        <article class="project-card reveal">
+          <b>2-4</b>
+          <h3>配送路線最佳化</h3>
+          <p>結合 TSP 與即時調度，降低配送距離與時間成本。</p>
+        </article>
+        <article class="project-card reveal">
+          <b>2-5</b>
+          <h3>智慧物流模擬平台</h3>
+          <p>以 Digital Twin 進行情境測試、流程模擬與決策驗證。</p>
+        </article>
+        <article class="project-card reveal">
+          <b>2-6</b>
+          <h3>AI 客訴與客服預測</h3>
+          <p>分析客訴文字與需求趨勢，提出客服改善方案。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section warm-section" id="reward">
+      <div class="container reward-grid">
+        <div class="reward-main reveal">
+          <p class="section-label">Reward & Assessment</p>
+          <h2>最高 NT$50,000 學習獎勵金，並以階段評量與企業專題成果檢核學習成效。</h2>
+          <p>獎勵條件與評量方式已合併呈現，讓學員能清楚知道出席、測驗、實作與成果報告的重要性。</p>
+        </div>
+        <div class="reward-stack">
+          <article class="reward-card reveal">
+            <span>第一階段獎勵金</span>
+            <h3>NT$20,000</h3>
+            <p>第一階段出席率達 90% 以上，且後測成績達 80 分以上。</p>
+          </article>
+          <article class="reward-card reveal">
+            <span>第二階段獎勵金</span>
+            <h3>NT$30,000</h3>
+            <p>第二階段實作出席率達 90% 以上，且成果發表通過。</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="container assessment-grid">
+        <article class="assessment-card reveal">
+          <h3>第一階段評量</h3>
+          <p>訓練課程出席時數需達該階段總課程時數 90% 以上，並完成後測筆試且成績達 80 分以上。</p>
+        </article>
+        <article class="assessment-card reveal">
+          <h3>第二階段評量</h3>
+          <p>實作出席時數需達該階段實作總時數 90% 以上，並完成每組 1 份結訓專題報告及公開發表，經學研界講師聯合評核通過。</p>
+        </article>
+        <article class="assessment-card reveal">
+          <h3>實作工具環境</h3>
+          <p>Python、Google Colab、Scikit-learn、XGBoost、OR-Tools、ROS2、AMR 模擬、數位孿生模擬平台、Matplotlib、Plotly。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="application">
+      <div class="container split-heading reveal">
+        <p class="section-label">Application Guide</p>
+        <h2>報名方式、應備文件與錄取後保障</h2>
+        <p>報名採線上申請，學員需依公告完成網頁報名、填寫申請資料並回傳指定文件。通過甄選後將以 Email 通知，錄取後由培訓單位依法辦理受訓期間相關保險，以保障學員權益。</p>
+      </div>
+
+      <div class="container process-grid">
+        <article class="process-card reveal">
+          <span>Step 01</span>
+          <h3>線上申請</h3>
+          <p>採線上申請制，請於本網頁或正式公告之報名系統完成線上報名，並依培訓單位規定填寫培訓學員申請表與個資同意書。</p>
+        </article>
+        <article class="process-card reveal">
+          <span>Step 02</span>
+          <h3>文件回傳</h3>
+          <p>報名後需回傳身分、學歷、成績與工作經驗相關證明文件。正式收件信箱、表單格式與附件名稱請以培訓單位公告為準。</p>
+        </article>
+        <article class="process-card reveal">
+          <span>Step 03</span>
+          <h3>甄選與通知</h3>
+          <p>培訓單位將依規定進行資格審查與甄選，通過後以 Email 發送錄取通知及後續參訓說明。</p>
+        </article>
+        <article class="process-card reveal">
+          <span>Step 04</span>
+          <h3>錄取後保險</h3>
+          <p>錄取通知後，培訓單位將依法為學員投保「訓字保」勞工保險或職業災害保險；學員於完成訓練後需配合辦理退保作業。</p>
+        </article>
+      </div>
+
+      <div class="container document-panel reveal">
+        <div class="document-copy">
+          <p class="section-label">Required Documents</p>
+          <h3>報名應備資料</h3>
+          <p>以下文件為報名資料檢核重點，請於正式報名前先備妥掃描檔或清晰照片。</p>
+        </div>
+
+        <ul class="document-list">
+          <li><b>身分證明</b><span>身分證正反面影本。</span></li>
+          <li><b>學歷證明</b><span>最高學歷畢業證書影本；應屆畢業生請提供在學證明，並於培訓完成後 6 個月內交付畢業證書影本。</span></li>
+          <li><b>成績資料</b><span>最高學歷學校成績單影本。</span></li>
+          <li><b>工作經驗證明</b><span>如有工作經驗，請提供勞工保險異動紀錄；如加保於職業工會、農會或漁會，請於申請表中切結相關事項。</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section warm-section" id="completion">
+      <div class="container split-heading reveal">
+        <p class="section-label">Completion & Rules</p>
+        <h2>結訓、認證、請假與退訓規範</h2>
+        <p>學員須完成兩階段培訓並達成出席、測驗、專題與評核標準，始認定為完訓。培訓期間亦需配合簽到簽退、請假與課程安排；若未達出席門檻或違反相關規定，將影響完訓資格與學習獎勵金請領。</p>
+      </div>
+
+      <div class="container notice-grid completion-grid">
+        <article class="notice-card reveal">
+          <span>第一階段</span>
+          <h3>次產業 AI 應用課程結業標準</h3>
+          <ul>
+            <li>訓練課程出席時數達該階段總課程時數 90% 以上。</li>
+            <li>完成後測筆試，成績達 80 分以上。</li>
+            <li>符合條件者可請領第一階段學習獎勵金 NT$20,000。</li>
+          </ul>
+        </article>
+        <article class="notice-card reveal">
+          <span>第二階段</span>
+          <h3>企業專題實作結業標準</h3>
+          <ul>
+            <li>實作出席時數達該階段實作總時數 90% 以上。</li>
+            <li>完成每組 1 份結訓專題報告及公開發表。</li>
+            <li>經學研界講師聯合評核通過後，可請領第二階段學習獎勵金 NT$30,000。</li>
+          </ul>
+        </article>
+        <article class="notice-card reveal">
+          <span>請假規定</span>
+          <h3>出席與請假</h3>
+          <ul>
+            <li>每日上課須完成簽到及簽退，上午、下午各一次。</li>
+            <li>上課時間依課程表排定，原則為週一至週五。</li>
+            <li>晚到或早退均須提前請假，請假假別含事假、病假。</li>
+            <li>未達出席時數門檻者，不符合學習獎勵金請領資格。</li>
+          </ul>
+        </article>
+        <article class="notice-card reveal">
+          <span>退訓規定</span>
+          <h3>可能退訓情形</h3>
+          <ul>
+            <li>未到課時數超過課程總時數 10%。</li>
+            <li>個人報名及履歷資料填寫不實且情節重大。</li>
+            <li>未經核准擅自退出，或因適應不佳、無法配合課程規劃。</li>
+            <li>除不可歸責因素退訓外，其他因素退訓者後續不得再申請本計畫。</li>
+          </ul>
+        </article>
+        <article class="notice-card reveal notice-wide">
+          <span>注意事項</span>
+          <h3>參訓限制與課程調整</h3>
+          <ul>
+            <li>每名學員限參與本計畫 1 次；因不可歸責因素退訓者不在此限。</li>
+            <li>培訓補助期間不得同時接受其他政府相關人才培訓補助。</li>
+            <li>培訓單位保留調整課程日期、更換講師與修訂課程內容之權利。</li>
+            <li>如遇不可抗力因素，辦訓單位保留修訂課程日期及取消課程之權利。</li>
+          </ul>
+        </article>
+        <article class="notice-card reveal notice-wide">
+          <span>其他規範</span>
+          <h3>補助與資通訊產品規範</h3>
+          <ul>
+            <li>執行本計畫期間，不得採購、使用或導入中國大陸廠牌之資通訊產品或服務。</li>
+            <li>學員領取之學習獎勵金依中華民國稅法規定辦理。</li>
+            <li>正式資格認定、獎勵金請領與課程異動仍以培訓單位最新公告為準。</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="container alert-note reveal">
+        <strong>完訓提醒</strong>
+        <p>學員須完成兩階段培訓並達成所列標準與評核，始為完訓。應屆畢業生須於取得畢業證書並達成上述條件後，方能領取本計畫學習獎勵金。</p>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-copy reveal">
+          <p class="section-label">FAQ</p>
+          <h2>報名前可以先確認的幾件事</h2>
+        </div>
+        <div class="accordion reveal">
+          <details open>
+            <summary>非資訊背景可以參加嗎？</summary>
+            <p>可以。課程從 AI 基礎工具與物流應用情境開始，但需要能配合密集課程、資料練習與分組專題。</p>
+          </details>
+          <details>
+            <summary>第二階段是否一定要做企業專題？</summary>
+            <p>是。第二階段為企業專題實作 120 小時，需完成企業命題、分組實作、成果報告與發表。</p>
+          </details>
+          <details>
+            <summary>課程主軸是哪一個產業？</summary>
+            <p>本頁以智慧物流倉儲為主題，聚焦智慧倉儲及智慧配送、配送效率模擬與預測。</p>
+          </details>
+          <details>
+            <summary>報名後是否直接錄取？</summary>
+            <p>仍須依正式公告進行資格審查、甄選、參訓說明。</p>
+          </details>
+          <details>
+            <summary>報名需要準備哪些文件？</summary>
+            <p>需準備身分證正反面影本、最高學歷畢業證書或在學證明、最高學歷成績單；如有工作經驗，需另備勞工保險異動紀錄或相關切結資料。</p>
+          </details>
+          <details>
+            <summary>學習獎勵金如何請領？</summary>
+            <p>第一階段須出席率達 90% 以上且後測成績達 80 分以上；第二階段須出席率達 90% 以上且成果發表通過。兩階段合計最高可領 NT$50,000。</p>
+          </details>
+          <details>
+            <summary>未達出席門檻會有什麼影響？</summary>
+            <p>未達出席時數門檻者，不符合學習獎勵金請領資格；未到課時數超過課程總時數 10% 時，辦訓單位得依規定辦理退訓。</p>
+          </details>
+          <details>
+            <summary>可以同時申請其他政府人才培訓補助嗎？</summary>
+            <p>不可以。培訓補助期間不得同時接受其他政府相關人才培訓補助，且每名學員原則上限參與本計畫 1 次。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section apply-section" id="apply">
+      <div class="container download-panel reveal apply-download-panel">
+        <div class="download-copy">
+          <p class="section-label">Forms</p>
+          <h2>報名與表單下載</h2>
+          <p>請先下載並填寫以下表單，再搭配申請資料完成報名準備；正式收件方式與截止時間請依培訓單位最新公告辦理。</p>
+        </div>
+        <div class="form-downloads" aria-label="表單下載">
+          <a class="form-download-card" href="forms/培訓學員申請表.pdf" download>
+            <span>表單 01</span>
+            <strong>培訓學員申請表</strong>
+            <em>下載 PDF 檔</em>
+          </a>
+          <a class="form-download-card" href="forms/培訓個資.pdf" download>
+            <span>表單 02</span>
+            <strong>培訓個資同意書</strong>
+            <em>下載 PDF 檔</em>
+          </a>
+        </div>
+      </div>
+
+      <div class="container apply-card reveal">
+        <div class="apply-copy">
+          <p class="section-label">Apply</p>
+          <h2>報名與聯絡資訊</h2>
+          <p>請依正式報名公告填寫資料，並於完成線上報名後備妥申請表、個資同意書與應備文件。正式收件方式、文件回傳信箱及截止時間以培訓單位最新公告為準。</p>
+          <dl class="info-list">
+            <div><dt>承辦單位</dt><dd>國立雲林科技大學</dd></div>
+            <div><dt>合作企業</dt><dd>台灣宅配通</dd></div>
+            <div><dt>上課地點</dt><dd>國立雲林科技大學 <small class="location-address">雲林縣斗六市龍潭里大學路三段123號</small></dd></div>
+            <div><dt>聯絡人</dt><dd>專案計畫助理 呂奇(05)5342601-4281</dd></div>
+          </dl>
+        </div>
+        <div class="apply-form upload-link-panel" aria-label="上傳報名文件">
+          <div class="upload-link-copy">
+            <p class="section-label">Upload</p>
+            <h3>上傳報名文件</h3>
+            <p>請備妥培訓學員申請表、個資同意書與應備文件後，透過下方連結前往表單上傳。</p>
+          </div>
+          <a class="btn btn-primary upload-link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeplYSDYgEH_BjdeDj4MyxLBE80hy1RPZODFasKOL34190RAw/viewform?usp=header" target="_blank" rel="noopener noreferrer">前往上傳檔案</a>
+          <p class="form-note">正式收件請以培訓單位公告之報名系統為準。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>2026 AI 智慧物流實戰養成班</strong>
+        <p>120 小時次產業 AI 應用課程 + 120 小時企業專題實作。</p>
+      </div>
+      <address>
+        承辦單位：國立雲林科技大學<br>
+        合作企業：台灣宅配通<br>
+        上課地點：國立雲林科技大學<br>
+      </address>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
