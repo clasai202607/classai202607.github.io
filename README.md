@@ -3,7 +3,7 @@
 這是一個可直接部署到 GitHub Pages 的靜態招生網站，包含：
 
 - `index.html`：網站內容與區塊結構
-- `style.css`：吉祥物綠白風格與 RWD 排版
+- `style.css`：吉祥物綠白風格、LINE QR Code 聯絡卡片與 RWD 排版
 - `script.js`：手機選單、倒數計時、滾動淡入效果
 
 ## 已填入資訊
@@ -190,3 +190,9 @@
 - 企業師資維持不變。
 - 將原右側報名表單區塊改為「上傳報名文件」連結區塊。
 - 上傳檔案連結改為 Google 表單：https://docs.google.com/forms/d/e/1FAIpQLSeplYSDYgEH_BjdeDj4MyxLBE80hy1RPZODFasKOL34190RAw/viewform?usp=header
+
+
+## v31 更新
+
+- 將「報名與聯絡資訊」中的 LINE 連結文字改為 LINE QR Code 圖片。
+- 新增 `line-qr-code.jpg`，並補上 QR Code 卡片樣式與手機版尺寸調整。

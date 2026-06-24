@@ -2487,3 +2487,43 @@ details {
     font-size: 1.55rem;
   }
 }
+
+
+/* v31: replace contact link with LINE QR code */
+.info-list .info-line-qr {
+  align-items: center;
+}
+
+.line-qr-card {
+  width: min(100%, 240px);
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.line-qr-card img {
+  width: min(100%, 190px);
+  height: auto;
+  display: block;
+  padding: 12px;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.18);
+}
+
+.line-qr-card figcaption {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.94rem;
+  font-weight: 850;
+  line-height: 1.55;
+}
+
+@media (max-width: 760px) {
+  .line-qr-card {
+    width: 100%;
+  }
+
+  .line-qr-card img {
+    width: min(100%, 210px);
+  }
+}
